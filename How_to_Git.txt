@@ -1,0 +1,30 @@
+How to Git
+
+
+## Branch off existing Branch
+
+git checkout -b <new branch> <existing>
+
+
+## Keep feature branch up-to-date
+
+1. git fetch 
+
+2. git checkout <main branch>
+
+3. git pull
+
+4. git checkout <feature branch>
+
+4. git merge main
+
+
+## Merge Feature branch into main
+
+1. Make sure feature branch is up-to-date (Steps Above)
+
+2. git checkout <main branch>
+
+3. git merge <feature branch>
+
+4. Resolve git conclicts.
