@@ -8,10 +8,14 @@ services:
     volumes:
       - ./frontend:/app
     tty: true
+    ports:
+      - "3000:3000"
   backend:
     build:
       context: ./backend
       dockerfile: Dockerfile.dev
+    ports:
+      - "8000:8000"
     volumes:
       - ./backend:/app
     tty: true

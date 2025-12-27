@@ -1,4 +1,11 @@
 FROM node:24-alpine
 
 
-WORKDIR /app
+WORKDIR /app/life-timeline
+
+COPY ./life-timeline/package.json  ./life-timeline/package-lock.json ./
+
+RUN npm install
+
+
+CMD npm run dev -- --host
