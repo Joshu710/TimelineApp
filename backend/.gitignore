@@ -22,3 +22,7 @@ media/
 # Uncomment if you DON'T want to track migrations
 # */migrations/*
 # !*/migrations/__init__.py
+
+
+# Images
+images/

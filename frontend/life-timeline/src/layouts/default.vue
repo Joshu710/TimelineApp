@@ -3,9 +3,10 @@
     <router-view />
   </v-main>
 
-  <AppFooter />
+  <!-- <AppFooter /> -->
+  <p>Default Layout</p>
 </template>
 
 <script lang="ts" setup>
-  //
+//
 </script>
